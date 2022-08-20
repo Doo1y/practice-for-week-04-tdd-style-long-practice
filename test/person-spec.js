@@ -110,7 +110,7 @@ describe("class Person", function () {
         person1.greetAll([person1, coolPerson]);
         expect(spy1).to.have.been.called(1);
         expect(spy2).to.have.been.called(1);
-      })
-    })
-  })
+      });
+    });
+  });
 });

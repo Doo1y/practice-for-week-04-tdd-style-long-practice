@@ -1,9 +1,9 @@
-function returnsThree() {
-  // Your code here
-}
+const returnsThree = () => 3;
 
-function reciprocal(n) {
-  // Your code here
+
+const reciprocal = (n) => {
+  if (n < 1 || n > 1000000) throw new TypeError("Number cannot be less than 1 or greater than 1000000"); 
+  else return 1 / n;
 }
 
 module.exports = {
